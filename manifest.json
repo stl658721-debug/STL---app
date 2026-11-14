@@ -1,0 +1,22 @@
+{
+  "name": "STL للشحن السريع",
+  "short_name": "STL",
+  "description": "شبكة شحن سريع وآمن بين المحافظات السورية",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1b3a",
+  "theme_color": "#0b1b3a",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business", "productivity", "logistics"],
+  "prefer_related_applications": false,
+  "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}],
+  "shortcuts": [
+    {"name": "شحنة جديدة", "short_name": "شحنة", "url": "./index.html?page=create", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]},
+    {"name": "تتبع شحنة", "short_name": "تتبع", "url": "./index.html?page=track", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]},
+    {"name": "التقارير المالية", "short_name": "تقارير", "url": "./index.html?page=reports", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]},
+    {"name": "تطبيق المندوب", "short_name": "مندوب", "url": "./courier.html", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]}
+  ]
+}
